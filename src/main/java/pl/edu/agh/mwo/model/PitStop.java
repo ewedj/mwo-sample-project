@@ -25,4 +25,16 @@ public class PitStop {
     public void setLapNumber(int lapNumber) {
         this.lapNumber = lapNumber;
     }
+
+    public int getDriverNumber() {
+        return driverNumber;
+    }
+
+    public double getPitDuration() {
+        return pitDuration;
+    }
+
+    public int getLapNumber() {
+        return lapNumber;
+    }
 }
